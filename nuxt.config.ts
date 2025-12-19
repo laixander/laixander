@@ -9,12 +9,6 @@ export default defineNuxtConfig({
     enabled: true
   },
 
-  colorMode: {
-    preference: 'dark',
-    fallback: 'dark',
-    classSuffix: ''
-  },
-
   css: ['~/assets/css/main.css'],
 
   routeRules: {
