@@ -55,7 +55,8 @@
                         variant="soft" />
                 </div>
             </template>
-            <Placeholder />
+            <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f" class="rounded-xl h-full object-cover hover:scale-105 transition-transform duration-500 ease-in-out" />
+            <!-- <Placeholder /> -->
         </UPageSection>
 
         <UPageSection title="Skills & Tools"
@@ -137,7 +138,7 @@
                                     Email Me
                                 </h4>
                                 <p class="text-muted">
-                                    hello@alexdesigner.com
+                                    laixander@gmail.com
                                 </p>
                             </div>
                         </div>
@@ -152,7 +153,7 @@
                                     Location
                                 </h4>
                                 <p class="text-muted">
-                                    San Francisco, CA (Remote)
+                                    Manila, Philippines (Remote)
                                 </p>
                             </div>
                         </div>
