@@ -2,7 +2,8 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
-    '@nuxt/ui'
+    '@nuxt/ui',
+    '@nuxtjs/color-mode'
   ],
 
   devtools: {
@@ -10,6 +11,12 @@ export default defineNuxtConfig({
   },
 
   css: ['~/assets/css/main.css'],
+
+
+  colorMode: {
+    preference: 'dark'
+  },
+  
 
   routeRules: {
     '/': { prerender: true }

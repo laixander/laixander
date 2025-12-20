@@ -52,7 +52,7 @@
             <template #body>
                 <div class="grid lg:grid-cols-2 gap-8">
                     <UPageCard v-for="(aboutCard, index) in aboutCards" :key="index" v-bind="aboutCard"
-                        variant="soft" />
+                        variant="subtle" spotlight />
                 </div>
             </template>
             <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f" class="rounded-xl h-full object-cover hover:scale-105 transition-transform duration-500 ease-in-out" />
@@ -63,7 +63,7 @@
             description="My technical proficiency and design toolkit that I use to bring ideas to life.">
             <template #body>
                 <div class="grid lg:grid-cols-3 gap-8">
-                    <UPageCard v-for="(skillCard, index) in skillCards" :key="index" v-bind="skillCard" variant="soft">
+                    <UPageCard v-for="(skillCard, index) in skillCards" :key="index" v-bind="skillCard" variant="subtle" spotlight>
                         <template #description>
                             <div class="mt-4 flex flex-wrap gap-2">
                                 <UBadge v-for="(item, i) in skillCard.items" :key="i" :label="item" variant="outline"
